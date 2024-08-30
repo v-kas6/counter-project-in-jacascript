@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.counter{
+    font-size: 80px;
+    letter-spacing: 5px;
+
+}
+
+.num{
+    font-size: 80px;
+    margin-block: 20px;
+}
+
+.buttons button{
+    font-size: 20px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 0.4em 0.5em;
+    letter-spacing: 2px;
+    margin-inline: 20px;
+}
+
+.buttons button:hover{
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:556px){
+    .counter{
+        font-size: 40px;
+    }
+    .buttons button{
+        font-size: 10px;
+        margin-inline: 5px;
+    }
+
+}
+
+
